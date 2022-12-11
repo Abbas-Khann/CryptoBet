@@ -5,7 +5,7 @@ import { BsGithub } from 'react-icons/bs';
 
 const Footer = (): JSX.Element => {
   return (
-    <footer className='bg-[#010232] text-white px-10 py-5 sticky top-full'>
+    <footer className='bg-[#010232] text-white px-10 py-5 sticky top-full border-t-2'>
         <div className='flex flex-col sm:flex-row justify-between items-center'>
             <div className='text-md pb-4 font-fredoka text-center mt-5'>
                 <span>Built by </span>
