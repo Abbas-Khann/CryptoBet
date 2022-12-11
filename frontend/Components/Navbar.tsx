@@ -56,7 +56,7 @@ const Navbar = (): JSX.Element => {
             </button>
           </div>
         </Link>
-        <Link href="/">
+        <Link href="/About">
           <div className="cursor-pointer hover:animate-pulse relative group py-0.5 px-0.5 ">
             <div
               className="absolute -inset-1 blur-lg transition-all"
@@ -115,7 +115,7 @@ const Navbar = (): JSX.Element => {
                 Home
               </button>
             </Link>
-            <Link href="/Coin">
+            <Link href="/About">
               <button
                 className="cursor-pointer transition-all text-3xl mb-4"
               >
