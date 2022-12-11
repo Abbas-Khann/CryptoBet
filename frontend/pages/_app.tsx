@@ -39,10 +39,9 @@ function MyApp({ Component, pageProps }: AppProps) {
     <WagmiConfig client={wagmiClient}>
       <RainbowKitProvider chains={chains} modalSize="compact" theme={darkTheme({
         accentColor: '#FCF8E8',
-        accentColorForeground: 'black',
+        accentColorForeground: '#010232D4',
         borderRadius: 'none',
         fontStack: 'rounded',
-
       })}>
       <Component {...pageProps} />
       </RainbowKitProvider>
