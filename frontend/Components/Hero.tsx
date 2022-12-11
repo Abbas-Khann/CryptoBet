@@ -1,8 +1,6 @@
 import React, {useState} from "react";
 import HeroImg from "../public/img/Hero.png";
 import Image from "next/image";
-import { MdClose } from "react-icons/md";
-import { Transition } from "@headlessui/react";
 
 const Hero = (): JSX.Element => {
     const [showModal, setShowModal] = useState<boolean>(false);
@@ -25,7 +23,7 @@ const Hero = (): JSX.Element => {
                 >
                 Bet Now
               </button>
-              <Transition
+              {/* <Transition
               show={showModal}
               enter="transform transition duration-[500ms] ease-in"
               enterFrom="opacity-0 scale-0"
@@ -58,7 +56,7 @@ const Hero = (): JSX.Element => {
                   Buy
                 </a>
               </div>
-            </Transition>
+            </Transition> */}
           </div>
         </div>
         <div className="w-10/12 md:w-1/3 mx-auto md:mx-0 my-8 order-2 ">

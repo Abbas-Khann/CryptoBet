@@ -93,7 +93,7 @@ const Navbar = (): JSX.Element => {
         className="lg:hidden w-screen h-screen fixed overflow-y left-0 top-0 z-10"
       >
         <div
-          className="lg:hidden flex flex-col items-center h-full px-4 w-full py-10 md:px-8"
+          className="bg-[#010232] lg:hidden flex flex-col items-center h-full px-4 w-full py-10 md:px-8"
           id="mobile-menu"
         >
           <div className="flex justify-center space-x-2 items-center w-auto mb-24">
@@ -106,7 +106,15 @@ const Navbar = (): JSX.Element => {
               <Image src={logo} width={200} height={180} alt="logo" />
             </Link>
           </div>
-          <ul className=" flex flex-col justify-between basis-2/6 items-start mb-6">
+          <ul className="flex flex-col justify-evenly items-center basis-2/6 items-start mb-6">
+            <Link href="/">
+              <button
+              onClick={() => setExpand(!expand)}
+                className="cursor-pointer transition-all text-3xl mb-4"
+              >
+                Home
+              </button>
+            </Link>
             <Link href="/Coin">
               <button
                 className="cursor-pointer transition-all text-3xl mb-4"
