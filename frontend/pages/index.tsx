@@ -5,7 +5,7 @@ import Navbar from "../Components/Navbar"
 
 const Home = (): JSX.Element => {
   return (
-    <div>
+    <div className="">
       <Navbar />
       <Hero />
       <Footer />
