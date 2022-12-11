@@ -10,8 +10,9 @@ import { ConnectButton } from '@rainbow-me/rainbowkit';
 const Navbar = (): JSX.Element => {
   // --------- States here ------------- //
   const [expand, setExpand] = useState<boolean>(false);
+    
   return (
-    <nav className="max-w-full flex justify-between items-center px-6 py-8 lg:flex lg:justify-around lg:px-0 font-plus relative lg:items-center text-white">
+    <nav className="bg-[#010232] max-w-full flex justify-between items-center px-6 py-8 lg:flex lg:justify-around lg:px-0 font-plus relative lg:items-center text-white">
       {!expand ? (
         <a
           href="#"
@@ -34,16 +35,16 @@ const Navbar = (): JSX.Element => {
         </a>
       )}
       <div className="flex justify-between w-[200px] -order-1 lg:w-72">
-        <div className="flex items-start justify-start space-x-2 w-auto cursor-pointer">
+        <div className="flex items-center justify-center space-x-2 w-auto cursor-pointer">
           <Link
             href="/"
           >
-            {!expand ? <Image width={100} src={logo} alt="logo" /> : null }
+            {!expand ? <Image width={190} src={logo} alt="logo" /> : null }
           </Link>
         </div>
       </div>
-      <ul className="hidden lg:flex justify-around items-center basis-2/5 text-lg">
-        <Link href="/Coin">
+      <ul className="hidden lg:flex justify-evenly items-center basis-2/5 text-lg">
+        <Link href="/">
           <div className="cursor-pointer relative hover:animate-pulse group py-0.5 px-0.5 ">
             <div
               className="absolute -inset-1 blur-lg transition-all"
@@ -51,41 +52,27 @@ const Navbar = (): JSX.Element => {
             <button
               className="relative border-[#D100D1] py-1 transition-all text-xl"
             >
-              Token
+              Home
             </button>
           </div>
         </Link>
-        {/* <Link href="/">
-          <div className="cursor-pointer hover:animate-pulse relative group py-0.5 px-0.5 ">
-            <div
-              className="absolute -inset-1 blur-lg transition-all"
-            ></div>
-            <button
-              className="relative border-[#D100D1] py-1 transition-all text-xl"
-            >
-              Pool
-            </button>
-          </div>
-        </Link> */}
-        <Link href="/Activity">
-          <div className="cursor-pointer hover:animate-pulse relative group py-0.5 px-0.5 ">
-            <div
-              className="absolute -inset-1 blur-lg transition-all"
-            ></div>
-            <button
-              className="relative border-[#D100D1] py-1 transition-all text-xl"
-            >
-              Activity
-            </button>
-          </div>
-        </Link>
-        <Link href="/DEX">
+        <Link href="/">
           <div className="cursor-pointer hover:animate-pulse relative group py-0.5 px-0.5 ">
             <div
               className="absolute -inset-1 blur-lg transition-all"
             ></div>
             <button className="relative border-[#D100D1] py-1 transition-all text-xl">
-              App
+              About
+            </button>
+          </div>
+        </Link>
+        <Link href="/">
+          <div className="cursor-pointer hover:animate-pulse relative group py-0.5 px-0.5 ">
+            <div
+              className="absolute -inset-1 blur-lg transition-all"
+            ></div>
+            <button className="relative border-[#D100D1] py-1 transition-all text-xl">
+              Bet
             </button>
           </div>
         </Link>
@@ -124,31 +111,14 @@ const Navbar = (): JSX.Element => {
               <button
                 className="cursor-pointer transition-all text-3xl mb-4"
               >
-                Token
+                About
               </button>
             </Link>
-            {/* <Link href="/">
+            <Link href="/">
               <button
                 className="cursor-pointer  transition-all text-3xl mb-4"
               >
-                Pool
-              </button>
-            </Link> */}
-            <Link href="/Activity">
-              <button
-                className="cursor-pointer  transition-all text-3xl mb-4"
-              >
-                Activity
-              </button>
-            </Link>
-            <Link href="/DEX">
-              <button
-                className="cursor-pointer transition-all text-3xl mb-4"
-                onClick={() => {
-                  setExpand(!expand);
-                }}
-              >
-                App
+                Bet
               </button>
             </Link>
           </ul>
