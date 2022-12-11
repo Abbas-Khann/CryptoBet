@@ -10,7 +10,7 @@ const Hero = (): JSX.Element => {
       <div className="md:flex items-center justify-around ">
         <div className=" md:w-3/5 px-32">
           <h2 className="text-4xl text-skin-base my-4 leading-tight lg:text-7xl tracking-tighter mb-6">
-            Start Betting with<br />
+            Start Betting with {" "}
             <span className="text-[#07AFD3]">CryptoBet</span>
           </h2>
           <p className="text-base text-skin-muted dark:text-skin-darkMuted lg:text-xl sm:mb-14 mb-10">
