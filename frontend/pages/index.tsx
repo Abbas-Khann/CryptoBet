@@ -1,4 +1,5 @@
 import React from "react"
+import Footer from "../Components/Footer"
 import Hero from "../Components/Hero"
 import Navbar from "../Components/Navbar"
 
@@ -7,6 +8,7 @@ const Home = (): JSX.Element => {
     <div>
       <Navbar />
       <Hero />
+      <Footer />
     </div>
   )
 }
