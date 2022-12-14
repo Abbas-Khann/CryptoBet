@@ -47,7 +47,7 @@ const Bet = (): JSX.Element => {
                 "py-20 border-2 rounded-3xl flex items-center justify-center flex-col w-10/12 sm:w-9/12 md:w-8/12 lg:w-4/12 bg-gradient-to-b from-[#010232D4] via-[#0102328C] to-[#0771D38A]"
                 >
                     <h2 className="text-5xl mb-2">Current{" "}<span className="text-[#0771D3]">{" "}Eth Price</span></h2>
-                    <h4 className="text-xl pb-16">0$ {" "}<span className="text-[#0771D3]">USD</span></h4>
+                    <h4 className="text-2xl pb-16">0$ {" "}<span className="text-[#0771D3]">USD</span></h4>
                     <div className="flex">
                     <div className="pr-10">
                         <Image width={50} height={50} src={upward} alt={ "" } />
