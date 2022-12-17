@@ -37,9 +37,9 @@ const Bet = (): JSX.Element => {
                     <h4 className="text-xl pb-16">Entry Fee:{" "}<span className="text-[#0771D3]">1.1 Matic</span></h4>
                     <div className="flex">
                         <div className="pr-10">
-                        <Image width={50} height={50} src={upward} alt={ "" } />
+                        <Image className="cursor-pointer" width={50} height={50} src={upward} alt={ "" } />
                         </div>
-                        <Image width={50} height={50} src={downward} alt={ "" } />
+                        <Image className="cursor-pointer" width={50} height={50} src={downward} alt={ "" } />
                     </div>
                 </div>
                 <div
