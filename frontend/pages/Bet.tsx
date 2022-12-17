@@ -48,12 +48,12 @@ const Bet = (): JSX.Element => {
                 >
                     <h2 className="text-5xl mb-2">Current{" "}<span className="text-[#0771D3]">{" "}Eth Price</span></h2>
                     <h4 className="text-2xl pb-16">0$ {" "}<span className="text-[#0771D3]">USD</span></h4>
-                    <div className="flex">
+                    {/* <div className="flex">
                     <div className="pr-10">
                         <Image width={50} height={50} src={upward} alt={ "" } />
                         </div>
                         <Image width={50} height={50} src={downward} alt={ "" } />
-                    </div>
+                    </div> */}
                 </div>
                 </div>
             </div>
