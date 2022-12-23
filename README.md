@@ -38,7 +38,7 @@ This project was made for [HyperverseXSafuu hackathon](https://www.hyperverse.de
 
 ## 🔩 Project Structure
 
-- [Hyperverse Smart Module]()
+- [Hyperverse Smart Module](https://github.com/Abbas-Khann/CryptoBet/tree/main/Smart%20Module)
 
 - [Figma Design](https://www.figma.com/file/ZKvXbipS1yquTAiqYuf9CH/Untitled?node-id=2%3A19)
 
