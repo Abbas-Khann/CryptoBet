@@ -1,8 +1,6 @@
 # 🥳 CryptoBet
 
-[![Hackathon-Video]](https://youtu.be/ni5wa0Ry3SQ "Hackathon Video")
-
-_Click on the video to view it on YouTube_
+[Hackathon-Video](https://youtu.be/6G6x675uyt4 "Hackathon Video")
 
 If you are a fan of betting games then or a crypto trader and you can predict when the crypto prices will go up and down. Well if that sounds like you then enter [CryptoBet](add-the-hosted-link-here)
 
