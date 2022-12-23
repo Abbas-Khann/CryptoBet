@@ -29,7 +29,7 @@ Most of the betting games rely on a centralized entity to lock their money into 
 
 ## ☄️ What's next?
 
-This is just the beginning of this amazing game I have built so far and in the future the smart contract will have more customizable features such as playing with multiple players and mainly deploy this game to mainnet. There will also be other ways to win with cryptoBet, due to lack of time and not knowing about this amazing hackathon earlier on i couldn't add a lot of the things i personally had planned for this game.
+This is just the beginning of this amazing game I have built so far and in the future the smart contract will have more customizable features such as playing with multiple players and mainly deploy this game to mainnet. There will also be other ways to win with cryptoBet, due to lack of time and not knowing about this amazing hackathon earlier on I couldn't add a lot of the things I personally had planned for this game.
 
 ## ⚡ Hackathon
 
