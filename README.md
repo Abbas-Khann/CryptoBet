@@ -1,6 +1,6 @@
 # 🥳 CryptoBet
 
-[![Hackathon-Video](https://i.imgur.com/bD0samS.gif)](https://youtu.be/ni5wa0Ry3SQ "Hackathon Video")
+[![Hackathon-Video]](https://youtu.be/ni5wa0Ry3SQ "Hackathon Video")
 
 _Click on the video to view it on YouTube_
 
